@@ -16,9 +16,11 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        flatDir {
+            dirs("app/libs")
+        }
     }
 }
 
 rootProject.name = "Matrix Dice"
 include(":app")
- 

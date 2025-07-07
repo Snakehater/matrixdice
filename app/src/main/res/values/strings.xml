@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Matrix Dice</string>
+    <string name="toy_name">Dice</string>
 </resources>
